@@ -2,7 +2,7 @@ package com.example.moviecatalogservice.models;
 
 public class CatalogItem {
 
-    private String name;
+    private String title;
     private String desc;
     private int rating;
 
@@ -10,17 +10,17 @@ public class CatalogItem {
     }
 
     public CatalogItem(String title, String desc, int rating) {
-        this.name = title;
+        this.title = title;
         this.desc = desc;
         this.rating = rating;
     }
 
     public String getTitle() {
-        return name;
+        return title;
     }
 
     public void setTitle(String title) {
-        this.name = title;
+        this.title = title;
     }
 
     public String getDesc() {
